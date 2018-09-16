@@ -11,6 +11,7 @@ int main()
 	//test_array_operations::test_cvtColor();
 	//test_array_operations::test_eigen();
 	//test_array_operations::test_flip();
+	//test_array_operations::test_normalize();
 	//test_array_operations::test_getConvertElem();
 	//test_array_operations::test_Mahalanobis();
 	//test_array_operations::test_minMaxIdx();

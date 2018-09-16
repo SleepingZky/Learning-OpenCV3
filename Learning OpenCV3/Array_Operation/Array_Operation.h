@@ -186,6 +186,23 @@ namespace test_array_operations {
 		cout << "m4 : \n" << m4 << endl;
 	}
 
+	void test_normalize() {
+
+		cv::Mat m(10, 10, CV_16UC1);
+		cv::randu(m, 1, 10);
+		cv::Mat dest;
+
+		cv::normalize(m, dest, 10, 100, cv::NORM_MINMAX);
+
+		cout << "source: \n" << m << endl;
+		cout << "dest: \n" << dest << endl;
+	}
+
+	void test_perspectiveTransform() {
+
+		// difficult
+	}
+
 	void test_getConvertElem(){
 
 		cv::Mat m(6, 6, CV_8UC1);
